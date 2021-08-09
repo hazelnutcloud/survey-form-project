@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap");
+body {
+    color: #eee;
+    font-family: "montserrat", serif;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #00041e;
+}
+
+#background-img {
+    position: absolute;
+    right: -100px;
+    width: 100%;
+    height: auto;
+    min-width: 400px;
+    max-height: 100%;
+    max-width: 800px;
+}
+
+.center {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: auto;
+}
+
+#title-description {
+    text-align: center;
+    margin: 2em;
+    text-shadow: 1px 1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111, -1px -1px 0 #111;
+}
+
+.form-card {
+    padding: 2em;
+    border-radius: 1em;
+    background-color: hsl(0, 0%, 50%, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+#name, #email, #number, #dropdown, fieldset, #comments {
+    margin-bottom: 2em;
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+.padding {
+    padding-right: 2em;
+}
+
+#comments {
+    height: 10em;
+}
+
+#submit {
+    display: block;
+    font-family: inherit;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    background-color: #41cc76;
+    border-radius: 1em;
+    cursor: pointer;
+}
